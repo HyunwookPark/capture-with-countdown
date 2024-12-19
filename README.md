@@ -17,5 +17,5 @@ ZOOMで記念キャプチャーを撮るとき、撮影者もポーズが取れ�
 
 こちらからダウンロード
 
-- [capture_with_countdown_0.1.exe](./dist/capture_with_countdown_0.1.exe)
+- [Windows用の実行ファイルをダウンロード](https://github.com/HyunwookPark/capture-with-countdown/releases)
 
