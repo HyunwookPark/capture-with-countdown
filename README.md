@@ -1,17 +1,21 @@
 # 3秒後に撮影アプリ
 
+ZOOMで記念キャプチャーを撮るとき、撮影者もポーズが取れるようにしたタイマー付きのキャプチャーアプリです。
+
+動作はWindowsのみです。
+
 ## 使い方
 
-![](./images/application01.png)
+![アプリケーションの画面](./images/application01.png)
 
-「Zoom ミーティング」など、キャプチャーを撮るウィンドウを選択して
+「Zoom ミーティング」など、キャプチャーを撮る対象のウィンドウを選択して「Capture」ボタンを押してください。
+3秒のカウントダウン後にキャプチャーを撮って画像ファイルとして保存します。
 
-![](./images/complete01.png)
+![キャプチャ完了画面](./images/complete01.png)
 
-```console
-pyinstaller --onefile --windowed capture_with_countdown.py
-```
+## ダウンロード
 
-python -m venv venv
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+こちらからダウンロード
+
+- [capture_with_countdown_0.1.exe](./dist/capture_with_countdown_0.1.exe)
+

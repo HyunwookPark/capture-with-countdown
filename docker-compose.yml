@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  signing:
+    build:
+      context: .
+    volumes:
+      - ./dist:/app/dist
+      - ./output:/app/output
+    entrypoint: /app/entrypoint.sh
+    tty: true
